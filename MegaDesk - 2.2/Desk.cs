@@ -13,12 +13,12 @@ namespace MegaDesk___2._2
         int drawerNumber;
         String surfaceMaterial;
         int shippingDays;
-    }
+   
 
-    public Desk()
-    {
+        public Desk()
+        {
 
-    }
+        }
 
     public float Width { get => width; set => width = value; }
     public float Depth { get => depth; set => depth = value; }

@@ -237,16 +237,6 @@ namespace MegaDesk___2._2
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void CreateQuote_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
         private System.Windows.Forms.TextBox customerNameBox;

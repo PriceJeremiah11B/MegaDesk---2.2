@@ -89,10 +89,6 @@ namespace MegaDesk___2._2
 
         }
 
-        private void AddQuoteButton_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
 
         #endregion
 
