@@ -30,6 +30,7 @@ namespace MegaDesk___2._2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddQuote));
             this.customerNameBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.sevenDayRadio = new System.Windows.Forms.RadioButton();
@@ -56,7 +57,7 @@ namespace MegaDesk___2._2
             // customerNameBox
             // 
             this.customerNameBox.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerNameBox.Location = new System.Drawing.Point(340, 42);
+            this.customerNameBox.Location = new System.Drawing.Point(338, 67);
             this.customerNameBox.Name = "customerNameBox";
             this.customerNameBox.Size = new System.Drawing.Size(121, 25);
             this.customerNameBox.TabIndex = 35;
@@ -65,7 +66,7 @@ namespace MegaDesk___2._2
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(200, 49);
+            this.label6.Location = new System.Drawing.Point(198, 74);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(106, 18);
             this.label6.TabIndex = 34;
@@ -75,7 +76,7 @@ namespace MegaDesk___2._2
             // 
             this.sevenDayRadio.AutoSize = true;
             this.sevenDayRadio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sevenDayRadio.Location = new System.Drawing.Point(340, 301);
+            this.sevenDayRadio.Location = new System.Drawing.Point(338, 326);
             this.sevenDayRadio.Name = "sevenDayRadio";
             this.sevenDayRadio.Size = new System.Drawing.Size(66, 22);
             this.sevenDayRadio.TabIndex = 33;
@@ -87,7 +88,7 @@ namespace MegaDesk___2._2
             // rushButton
             // 
             this.rushButton.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rushButton.Location = new System.Drawing.Point(512, 234);
+            this.rushButton.Location = new System.Drawing.Point(510, 259);
             this.rushButton.Name = "rushButton";
             this.rushButton.Size = new System.Drawing.Size(88, 34);
             this.rushButton.TabIndex = 32;
@@ -99,7 +100,7 @@ namespace MegaDesk___2._2
             // 
             this.fiveDayRadio.AutoSize = true;
             this.fiveDayRadio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fiveDayRadio.Location = new System.Drawing.Point(340, 278);
+            this.fiveDayRadio.Location = new System.Drawing.Point(338, 303);
             this.fiveDayRadio.Name = "fiveDayRadio";
             this.fiveDayRadio.Size = new System.Drawing.Size(66, 22);
             this.fiveDayRadio.TabIndex = 31;
@@ -112,7 +113,7 @@ namespace MegaDesk___2._2
             // 
             this.threeDayRadio.AutoSize = true;
             this.threeDayRadio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.threeDayRadio.Location = new System.Drawing.Point(340, 255);
+            this.threeDayRadio.Location = new System.Drawing.Point(338, 280);
             this.threeDayRadio.Name = "threeDayRadio";
             this.threeDayRadio.Size = new System.Drawing.Size(66, 22);
             this.threeDayRadio.TabIndex = 30;
@@ -125,7 +126,7 @@ namespace MegaDesk___2._2
             // 
             this.normalRadio.AutoSize = true;
             this.normalRadio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.normalRadio.Location = new System.Drawing.Point(340, 232);
+            this.normalRadio.Location = new System.Drawing.Point(338, 257);
             this.normalRadio.Name = "normalRadio";
             this.normalRadio.Size = new System.Drawing.Size(131, 22);
             this.normalRadio.TabIndex = 29;
@@ -137,7 +138,7 @@ namespace MegaDesk___2._2
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(203, 234);
+            this.label5.Location = new System.Drawing.Point(201, 259);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 18);
             this.label5.TabIndex = 28;
@@ -148,7 +149,7 @@ namespace MegaDesk___2._2
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(200, 192);
+            this.label4.Location = new System.Drawing.Point(198, 217);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 18);
             this.label4.TabIndex = 27;
@@ -158,7 +159,7 @@ namespace MegaDesk___2._2
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(203, 150);
+            this.label3.Location = new System.Drawing.Point(201, 175);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 18);
             this.label3.TabIndex = 26;
@@ -168,7 +169,7 @@ namespace MegaDesk___2._2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(203, 113);
+            this.label2.Location = new System.Drawing.Point(201, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 18);
             this.label2.TabIndex = 25;
@@ -178,7 +179,7 @@ namespace MegaDesk___2._2
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(200, 81);
+            this.label1.Location = new System.Drawing.Point(198, 106);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 18);
             this.label1.TabIndex = 24;
@@ -198,7 +199,7 @@ namespace MegaDesk___2._2
             // drawerNumberBox
             // 
             this.drawerNumberBox.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.drawerNumberBox.Location = new System.Drawing.Point(340, 185);
+            this.drawerNumberBox.Location = new System.Drawing.Point(338, 210);
             this.drawerNumberBox.Name = "drawerNumberBox";
             this.drawerNumberBox.Size = new System.Drawing.Size(121, 25);
             this.drawerNumberBox.TabIndex = 22;
@@ -206,7 +207,7 @@ namespace MegaDesk___2._2
             // DepthBox
             // 
             this.DepthBox.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DepthBox.Location = new System.Drawing.Point(340, 147);
+            this.DepthBox.Location = new System.Drawing.Point(338, 172);
             this.DepthBox.Name = "DepthBox";
             this.DepthBox.Size = new System.Drawing.Size(121, 25);
             this.DepthBox.TabIndex = 21;
@@ -214,7 +215,7 @@ namespace MegaDesk___2._2
             // WidthBox
             // 
             this.WidthBox.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WidthBox.Location = new System.Drawing.Point(340, 113);
+            this.WidthBox.Location = new System.Drawing.Point(338, 138);
             this.WidthBox.Name = "WidthBox";
             this.WidthBox.Size = new System.Drawing.Size(121, 25);
             this.WidthBox.TabIndex = 20;
@@ -224,7 +225,7 @@ namespace MegaDesk___2._2
             this.MaterialCombo.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.MaterialCombo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaterialCombo.FormattingEnabled = true;
-            this.MaterialCombo.Location = new System.Drawing.Point(340, 78);
+            this.MaterialCombo.Location = new System.Drawing.Point(338, 103);
             this.MaterialCombo.Name = "MaterialCombo";
             this.MaterialCombo.Size = new System.Drawing.Size(121, 26);
             this.MaterialCombo.TabIndex = 19;
@@ -233,7 +234,7 @@ namespace MegaDesk___2._2
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(468, 43);
+            this.label7.Location = new System.Drawing.Point(466, 68);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 18);
             this.label7.TabIndex = 36;
@@ -243,7 +244,7 @@ namespace MegaDesk___2._2
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(468, 117);
+            this.label8.Location = new System.Drawing.Point(466, 142);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 18);
             this.label8.TabIndex = 37;
@@ -253,7 +254,7 @@ namespace MegaDesk___2._2
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(468, 150);
+            this.label9.Location = new System.Drawing.Point(466, 175);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(110, 18);
             this.label9.TabIndex = 38;
@@ -263,7 +264,7 @@ namespace MegaDesk___2._2
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(468, 192);
+            this.label10.Location = new System.Drawing.Point(466, 217);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(102, 18);
             this.label10.TabIndex = 39;
@@ -273,6 +274,7 @@ namespace MegaDesk___2._2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
