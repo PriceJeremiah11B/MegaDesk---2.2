@@ -297,6 +297,7 @@ namespace MegaDesk___2._2
             this.Controls.Add(this.DepthBox);
             this.Controls.Add(this.WidthBox);
             this.Controls.Add(this.MaterialCombo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddQuote";
             this.Text = "Add Quote";
             this.ResumeLayout(false);

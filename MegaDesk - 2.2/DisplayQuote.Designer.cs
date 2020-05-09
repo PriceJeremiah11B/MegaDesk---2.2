@@ -113,6 +113,7 @@
             // 
             this.FinalCost.Text = "Final Cost";
             this.FinalCost.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.FinalCost.Width = 93;
             // 
             // Date
             // 
@@ -128,6 +129,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listView);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DisplayQuote";
             this.Text = "DisplayQuote";
             this.ResumeLayout(false);
