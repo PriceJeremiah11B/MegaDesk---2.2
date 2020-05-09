@@ -8,9 +8,20 @@ namespace MegaDesk___2._2
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+
+        private static List<DeskQuote> deskQuotes = new List<DeskQuote>();
+
+        internal static List<DeskQuote> DeskQuotes { get => deskQuotes; set => deskQuotes = value; }
+
+        enum AttributeOrder
+        {
+            Width = 0,
+            Depth = 1,
+            SurfaceArea = 2,
+            Material = 3,
+            ProductionTime = 4
+        }
+
         [STAThread]
         static void Main()
         {
