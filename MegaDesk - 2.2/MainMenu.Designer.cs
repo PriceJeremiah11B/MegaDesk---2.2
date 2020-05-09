@@ -38,6 +38,7 @@ namespace MegaDesk___2._2
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(6, 401);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(94, 35);
@@ -48,9 +49,10 @@ namespace MegaDesk___2._2
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(553, 396);
+            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(537, 396);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 37);
+            this.button3.Size = new System.Drawing.Size(110, 37);
             this.button3.TabIndex = 6;
             this.button3.Text = "Search Quotes";
             this.button3.UseVisualStyleBackColor = true;
@@ -58,6 +60,7 @@ namespace MegaDesk___2._2
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(130, 401);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 37);
@@ -68,9 +71,10 @@ namespace MegaDesk___2._2
             // 
             // AddQuoteButton
             // 
-            this.AddQuoteButton.Location = new System.Drawing.Point(688, 394);
+            this.AddQuoteButton.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddQuoteButton.Location = new System.Drawing.Point(666, 394);
             this.AddQuoteButton.Name = "AddQuoteButton";
-            this.AddQuoteButton.Size = new System.Drawing.Size(94, 41);
+            this.AddQuoteButton.Size = new System.Drawing.Size(116, 41);
             this.AddQuoteButton.TabIndex = 4;
             this.AddQuoteButton.Text = "Add New Quote";
             this.AddQuoteButton.UseVisualStyleBackColor = true;

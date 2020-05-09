@@ -42,9 +42,10 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(12, 378);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 34);
+            this.button2.Size = new System.Drawing.Size(115, 34);
             this.button2.TabIndex = 7;
             this.button2.Text = "Exit To Main Menu";
             this.button2.UseVisualStyleBackColor = true;
@@ -52,6 +53,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(686, 368);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 34);
@@ -59,7 +61,6 @@
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-
             // 
             // listView
             // 
@@ -71,6 +72,7 @@
             this.ProductionTime,
             this.FinalCost,
             this.Date});
+            this.listView.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView.FullRowSelect = true;
             this.listView.HideSelection = false;
             this.listView.Location = new System.Drawing.Point(12, 39);

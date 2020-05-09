@@ -51,6 +51,7 @@
             this.ProductionTime,
             this.FinalCost,
             this.Date});
+            this.listView.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView.FullRowSelect = true;
             this.listView.HideSelection = false;
             this.listView.Location = new System.Drawing.Point(12, 81);
@@ -98,6 +99,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(45, 402);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 23);
@@ -108,6 +110,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(490, 26);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -118,10 +121,11 @@
             // 
             // MaterialCombo
             // 
+            this.MaterialCombo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaterialCombo.FormattingEnabled = true;
             this.MaterialCombo.Location = new System.Drawing.Point(337, 26);
             this.MaterialCombo.Name = "MaterialCombo";
-            this.MaterialCombo.Size = new System.Drawing.Size(121, 21);
+            this.MaterialCombo.Size = new System.Drawing.Size(121, 26);
             this.MaterialCombo.TabIndex = 6;
             this.MaterialCombo.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
